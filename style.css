@@ -1,0 +1,55 @@
+body {
+  min-height: 100vh;
+  /* background: linear-gradient(); */
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main h1 {
+  width: 224px;
+height: 28px;
+
+/* Body Big / Bold */
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+
+}
+
+#check {
+  background-color: #483BDF;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 30px;
+}
+
+#check:hover {
+  cursor: pointer;
+}
+
+#text {
+  width: 100%;
+}
+
+#text:active {
+  background-color: 1px solid #483BDF;
+}
+
+#result {
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
